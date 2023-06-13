@@ -4,7 +4,7 @@ import React from "react";
 import ecommerceImg from "../public/assets/projects/ecommerce.png";
 import ytImg from "../public/assets/projects/yt.png";
 import newsImg from "../public/assets/projects/news.png";
-// import twitchImg from "../public/assets/projects/twitch.jpg";
+import movixImg from "../public/assets/projects/movix1.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -26,13 +26,19 @@ const Projects = () => {
             title="YouTube"
             backgroundImg={ytImg}
             projectUrl="/yt"
-            tech="React JS"
+            tech="React JS - Vite"
           />
           <ProjectItem
             title="News App"
             backgroundImg={newsImg}
             projectUrl="/news"
             tech="React JS"
+          />
+          <ProjectItem
+            title="Movix App"
+            backgroundImg={movixImg}
+            projectUrl="/movix"
+            tech="React JS - Vite"
           />
         </div>
       </div>

@@ -20,7 +20,7 @@ const Navbar = () => {
       router.asPath === "/yt" ||
       router.asPath === "/ecommerce" ||
       router.asPath === "/news" ||
-      router.asPath === "/twitch"
+      router.asPath === "/movix"
     ) {
       setNavBg("transparent");
       setLinkColor("#ecf0f3");
