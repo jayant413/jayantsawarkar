@@ -27,28 +27,13 @@ const netflix = () => {
           <p className="p-1">Project</p>
           <h2>Overview</h2>
           <p className="text-justify md:pr-44 p-1 text-gray-300">
-            I built this application in React JS and is hosted on{" "}
-            <a
-              href="https://www.netlify.com/"
-              target="_blank"
-              className=" text-blue-500"
-            >
-              Netlify
-            </a>
-            . For fetching api used a proxy server hosted on{" "}
-            <a
-              href="https://render.com/"
-              target="_blank"
-              className=" text-blue-500"
-            >
-              Render
-            </a>
-            . Users can access news on various topic as available on api ex.
-            Health , Sports , Technology , Science. From news card after click
-            on read more it will redirect to full description for a particular
-            news. To design and make it responsive news app framework of css
-            tailwind has being used. This project is created to understand
-            working with API and React fuctional components.
+          This application was created by me in React JS and is hosted on Netlify. 
+          An on Render-hosted proxy server was utilised for fetching api.
+           Users can obtain news on a variety of topics thanks to apis, for example.
+           Sport, Technology, Science, and Health.
+           After clicking read more on a news card, you will be redirected to the full news description.
+            Tailwind is a CSS design and development framework that was used to create a responsive news app.
+           This project was developed to help you learn how to use APIs and functional React components.
           </p>
           <a
             href="https://github.com/jayant413/news_app_by_js"

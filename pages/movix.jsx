@@ -26,14 +26,14 @@ const twitch = () => {
         <div className='col-span-4'>
           <p>Project</p>
           <h2>Overview</h2>
-          <p>
-            This appplication was built using NEXT.JS and is styled with
-            Tailwind CSS. The application is hosted statically using Vercel.
-            This is a mobile responsive recreation of Twitch.tv and features
-            Next/Auth.js for authentication. Users may choose to be
-            authenticated with either a Github account or a Google account. A
-            few features to note with this project are lazy loading images using
-            the Image component, built in routing, and Next/Auth Context.
+          <p className="text-justify md:pr-44 p-1 text-gray-300">
+          This project, which is based on Vite - React JS and manages state using the 
+          Redux ToolKit. It now has a stunning appearance 
+          thanks to the sass/scss CSS framework, making it an even more amazing web project.
+           Tmdb api has been used to get comprehensive information 
+          about films and TV shows.We also have view to ratings 
+          for particular films and TV shows. You may look for details 
+          on your favourite shows using the search feature.
           </p>
           <a
             href='https://github.com/fireclint/twitch-nextjs-tailwind'
@@ -63,6 +63,9 @@ const twitch = () => {
               </p>
               <p className='text-gray-300 py-2 flex items-center'>
                 <RiRadioButtonFill className='pr-1' /> Redux ToolKit
+              </p>
+              <p className='text-gray-300 py-2 flex items-center'>
+                <RiRadioButtonFill className='pr-1' /> TMDB api
               </p>
             </div>
           </div>
