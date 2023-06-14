@@ -27,13 +27,13 @@ const crypto = () => {
           <p className="p-1">Project</p>
           <h2>Overview</h2>
           <p className="text-justify md:pr-44 p-1 text-gray-300">
-          I created this YouTube clone to show my proficiency with React JS and reaching API endpoints. 
-          React JS was used to create this application, which is hosted on Netlify.
-           This app's state is managed with Redux Toolkit.
-           Users can search for relevant content on YouTube. 
-          The "React Router DOM" package's dynamic routing is another aspect of this application.
-           The YouTube Rapid API was used to create this application. 
-          YouTube videos were played using the React player.
+            I created this YouTube clone to show my proficiency with React JS
+            and reaching API endpoints. React JS was used to create this
+            application, which is hosted on Netlify. This app's state is managed
+            with Redux Toolkit. Users can search for relevant content on
+            YouTube. The "React Router DOM" package's dynamic routing is another
+            aspect of this application. The YouTube Rapid API was used to create
+            this application. YouTube videos were played using the React player.
           </p>
           <a
             href="https://github.com/jayant413/react_youtube_js"

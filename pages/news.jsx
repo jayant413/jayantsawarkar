@@ -27,13 +27,14 @@ const netflix = () => {
           <p className="p-1">Project</p>
           <h2>Overview</h2>
           <p className="text-justify md:pr-44 p-1 text-gray-300">
-          This application was created by me in React JS and is hosted on Netlify. 
-          An on Render-hosted proxy server was utilised for fetching api.
-           Users can obtain news on a variety of topics thanks to apis, for example.
-           Sport, Technology, Science, and Health.
-           After clicking read more on a news card, you will be redirected to the full news description.
-            Tailwind is a CSS design and development framework that was used to create a responsive news app.
-           This project was developed to help you learn how to use APIs and functional React components.
+            This application was created by me in React JS and is hosted on
+            Netlify. An on Render-hosted proxy server was utilised for fetching
+            api. Users can obtain news on a variety of topics thanks to apis,
+            for example. Sport, Technology, Science, and Health. After clicking
+            read more on a news card, you will be redirected to the full news
+            description. Tailwind is a CSS design and development framework that
+            was used to create a responsive news app. This project was developed
+            to help you learn how to use APIs and functional React components.
           </p>
           <a
             href="https://github.com/jayant413/news_app_by_js"

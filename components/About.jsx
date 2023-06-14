@@ -17,7 +17,7 @@ const About = () => {
           </p>
 
           <p className="p-2 text-gray-300 text-justify">
-            Also you can check out my project below
+            Also , you may view my project below.
             <br /> Thanks.
           </p>
 

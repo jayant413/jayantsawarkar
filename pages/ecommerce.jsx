@@ -27,22 +27,26 @@ const property = () => {
           <p className="p-1">Project</p>
           <h2>Overview</h2>
           <p className="text-justify md:pr-44 p-1 text-gray-300">
-          A MERN full-stack project, this e-commerce web application uses authentication, sign-in, and sign-up features. 
-          Users can conduct needs and wants-based searches for products, add them to carts, and then complete the purchase later.
-           Administrators have the ability to list their products according to categories, amend product information, rename categories,
-            and add or remove new products. 
-          The PayPal API is used to integrate payments with the Braintree Payment Platform. 
-          Database management in this case is performed using the MongoDB database. Bootstrap has been used for the user 
-          interface to ensure that it is compatible with all devices, just like in this beginner-level project,
-           which is mostly focused on functionality over design. On {" "}<a
+            A MERN full-stack project, this e-commerce web application uses
+            authentication, sign-in, and sign-up features. Users can conduct
+            needs and wants-based searches for products, add them to carts, and
+            then complete the purchase later. Administrators have the ability to
+            list their products according to categories, amend product
+            information, rename categories, and add or remove new products. The
+            PayPal API is used to integrate payments with the Braintree Payment
+            Platform. Database management in this case is performed using the
+            MongoDB database. Bootstrap has been used for the user interface to
+            ensure that it is compatible with all devices, just like in this
+            beginner-level project, which is mostly focused on functionality
+            over design. On{" "}
+            <a
               href="https://www.cyclic.sh/"
               target="_blank"
               className=" text-blue-500"
             >
               Cyclic
-            </a>, this project is hosted.
-            
-            
+            </a>
+            , this project is hosted.
           </p>
 
           <a
