@@ -27,32 +27,10 @@ const property = () => {
           <p className="p-1">Project</p>
           <h2>Overview</h2>
           <p className="text-justify md:pr-44 p-1 text-gray-300">
-            This E-Commerce web app is a MERN full-stack project for
-            authentication sign in and sign up fuctionalities are used. Users
-            are able to search products as per there need and wants they can add
-            it to cart and buy later. Admins can list there products as per
-            categories also can edit product details, category names can add or
-            remove new products. Payment integration is done with{" "}
-            <a
-              href="https://www.braintreegateway.com/session"
-              target="_blank"
-              className=" text-blue-500"
-            >
-              Braintree Payment
-            </a>{" "}
-            platform using paypal api. Here MongoDB database is used for
-            database management. As in this beginner mern project mostly focused
-            on functionalities over design so bootstarp has being used for user
-            interface to make it a compatible to all devices. This project is
-            hosted on{" "}
-            <a
-              href="https://www.cyclic.sh/"
-              target="_blank"
-              className=" text-blue-500"
-            >
-              Cyclic
+            A MERN full-stack project, this e-commerce web application uses authentication, sign-in, and sign-up features. Users can conduct needs and wants-based searches for products, add them to carts, and then complete the purchase later. Administrators have the ability to list their products according to categories, amend product information, rename categories, and add or remove new products. The PayPal API is used to integrate payments with the Braintree Payment Platform. Database management in this case is performed using the MongoDB database. Bootstrap has been used for the user interface to ensure that it is compatible with all devices, just like in this beginner-level project, which is mostly focused on functionality over design. On Cyclic, this project is hosted.
+         
             </a>
-            .
+            
           </p>
 
           <a
