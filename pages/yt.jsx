@@ -65,7 +65,7 @@ const crypto = () => {
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
-          <a href="https://js-yt.netlify.app/" target="_blank" rel="noreferrer">
+          <a href="https://youtube-by-js.netlify.app/" target="_blank" rel="noreferrer">
             <button className="px-8 py-2 mt-4">Demo</button>
           </a>
         </div>
