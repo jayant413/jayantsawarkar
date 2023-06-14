@@ -27,7 +27,7 @@ const twitch = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className="text-justify md:pr-44 p-1 text-gray-300">
-            This project, which is based on Vite - React JS and manages state
+            Movix project, which is based on Vite - React JS and manages state
             using the Redux ToolKit. It now has a stunning appearance thanks to
             the sass/scss CSS framework, making it an even more amazing web
             project. Tmdb api has been used to get comprehensive information
