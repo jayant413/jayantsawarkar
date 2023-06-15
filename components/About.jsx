@@ -13,7 +13,14 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="p-2 text-gray-300 text-justify ">
-          Hello, this is Jayant. I am a computer science undergraduate student at SPPU in Pune, India. I am a full-stack web developer looking for a chance to use my abilities. To adapt to my career, I am excited about learning new technology. As a web developer, I am more interested in learning how to create websites that are responsive, engaging, and potentially the best in the industry integrating front-end and back-end technologies in order to give users a memorable experience.
+            Hello, this is Jayant. I am a computer science undergraduate student
+            at SPPU in Pune, India. I am a full-stack web developer looking for
+            a chance to use my abilities. To adapt to my career, I am excited
+            about learning new technology. As a web developer, I am more
+            interested in learning how to create websites that are responsive,
+            engaging, and potentially the best in the industry integrating
+            front-end and back-end technologies in order to give users a
+            memorable experience.
           </p>
 
           <p className="p-2 text-gray-300 text-justify">
