@@ -161,11 +161,14 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              <Link href="/resume">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+              <li className="py-4 text-sm">
+                <a
+                  href="Jayant_Sawarkar_Resume.pdf"
+                  download="Jayant_Sawarkar_Resume"
+                >
                   Resume
-                </li>
-              </Link>
+                </a>
+              </li>
               <Link href="/#contact">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Contact
