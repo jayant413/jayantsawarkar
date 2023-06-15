@@ -1,7 +1,7 @@
 // import Image from "next/image";
 // import Link from "next/link";
 import React from "react";
-import ecommerceImg from "../public/assets/projects/ecommerce.png";
+import ecommerceImg from "../public/assets/projects/ecommerce_home.png";
 import ytImg from "../public/assets/projects/yt.png";
 import newsImg from "../public/assets/projects/news.png";
 import movixImg from "../public/assets/projects/movix1.png";
@@ -17,7 +17,7 @@ const Projects = () => {
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="E-Commerce App"
+            title="MobiMart"
             backgroundImg={ecommerceImg}
             projectUrl="/ecommerce"
             tech="MERN"
@@ -35,7 +35,7 @@ const Projects = () => {
             tech="React JS"
           />
           <ProjectItem
-            title="Movix App"
+            title="Movix"
             backgroundImg={movixImg}
             projectUrl="/movix"
             tech="React JS - Vite"
