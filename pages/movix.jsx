@@ -36,7 +36,7 @@ const twitch = () => {
             using the search feature.
           </p>
           <a
-            href="https://github.com/fireclint/twitch-nextjs-tailwind"
+            href="https://github.com/jayant413/movix_by_js"
             target="_blank"
             rel="noreferrer"
           >
