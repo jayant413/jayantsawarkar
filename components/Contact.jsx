@@ -31,9 +31,9 @@ const Contact = () => {
                 <p>Beginner Full Stack Developer</p>
                 <p className="py-4 ">
                   I am available for contributing in porjects as a intern.
-                  <p className="text-sm py-1 text-gray-400">
+                  <span className="text-sm py-1 text-gray-400">
                     Thanks for visiting , Have a Great Day .
-                  </p>
+                  </span>
                 </p>
               </div>
               <div>

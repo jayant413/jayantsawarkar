@@ -27,36 +27,13 @@ const crypto = () => {
           <p className="p-1">Project</p>
           <h2>Overview</h2>
           <p className="text-justify md:pr-44 p-1 text-gray-300">
-            I built this YouTube clone to demonstrate knowledge working in React
-            JS and accessing API endpoints. This app was built using React JS
-            and is hosted on{" "}
-            <a
-              href="https://www.netlify.com/"
-              target="_blank"
-              className=" text-blue-500"
-            >
-              Netlify
-            </a>
-            . State management of this app is done with{" "}
-            <a
-              href="https://redux-toolkit.js.org/"
-              target="_blank"
-              className=" text-blue-500"
-            >
-              Redux Toolkit
-            </a>
-            . Users are able to search respective content on youtube . Another
-            feature of this application is dynamic routing through the
-            &quot;React Router DOM&quot; package. This application was built
-            using the{" "}
-            <a
-              href="https://rapidapi.com/Glavier/api/youtube138/"
-              target="_blank"
-              className=" text-blue-500"
-            >
-              Youtube Rapid API.
-            </a>{" "}
-            React player was used to play videos of youtube.
+            I created this YouTube clone to show my proficiency with React JS
+            and reaching API endpoints. React JS was used to create this
+            application, which is hosted on Netlify. This app's state is managed
+            with Redux Toolkit. Users can search for relevant content on
+            YouTube. The "React Router DOM" package's dynamic routing is another
+            aspect of this application. The YouTube Rapid API was used to create
+            this application. YouTube videos were played using the React player.
           </p>
           <a
             href="https://github.com/jayant413/react_youtube_js"
@@ -65,7 +42,11 @@ const crypto = () => {
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
-          <a href="https://js-yt.netlify.app/" target="_blank" rel="noreferrer">
+          <a
+            href="https://youtube-by-js.netlify.app/ "
+            target="_blank"
+            rel="noreferrer"
+          >
             <button className="px-8 py-2 mt-4">Demo</button>
           </a>
         </div>
