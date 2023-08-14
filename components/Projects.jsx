@@ -5,6 +5,7 @@ import ecommerceImg from "../public/assets/projects/ecommerce_home.png";
 import ytImg from "../public/assets/projects/yt.png";
 import newsImg from "../public/assets/projects/news.png";
 import movixImg from "../public/assets/projects/movix1.png";
+import online_compiler from "../public/assets/projects/online_compiler.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -35,10 +36,10 @@ const Projects = () => {
             tech="React JS"
           />
           <ProjectItem
-            title="Movix"
-            backgroundImg={movixImg}
-            projectUrl="/movix"
-            tech="React JS - Vite"
+            title="Programiz"
+            backgroundImg={online_compiler}
+            projectUrl="/onlineCompiler"
+            tech="MERN"
           />
         </div>
       </div>
