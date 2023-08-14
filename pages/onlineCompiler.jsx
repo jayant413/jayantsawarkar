@@ -1,6 +1,6 @@
 import Image from "next/image";
 import React from "react";
-import movixImg from "../public/assets/projects/movix.png";
+import online_compiler from "../public/assets/projects/onlineCompiler.png";
 import { RiRadioButtonFill } from "react-icons/ri";
 import Link from "next/link";
 
@@ -13,12 +13,12 @@ const twitch = () => {
           className="absolute z-1"
           layout="fill"
           objectFit="cover"
-          src={movixImg}
+          src={online_compiler}
           alt="/"
         />
         <div className="absolute top-[70%] max-w-[1240px] w-full left-[50%] right-[50%] translate-x-[-50%] translate-y-[-50%] text-white z-10 p-2">
-          <h2 className="py-2">Movix</h2>
-          <h3>Vite / SASS / Redux</h3>
+          <h2 className="py-2">Programiz | Online Compiler</h2>
+          <h3>MERN / SASS / Redux</h3>
         </div>
       </div>
 
@@ -27,23 +27,20 @@ const twitch = () => {
           <p>Project</p>
           <h2>Overview</h2>
           <p className="text-justify md:pr-44 p-1 text-gray-300">
-            This project, which is based on Vite - React JS and manages state
-            using the Redux ToolKit. It now has a stunning appearance thanks to
-            the sass/scss CSS framework, making it an even more amazing web
-            project. Tmdb api has been used to get comprehensive information
-            about films and TV shows.We also have view to ratings for particular
-            films and TV shows. You may look for details on your favourite shows
-            using the search feature.
+            This project was created in MERN. Using the Judge0 API with multiple
+            language(PHP, C, C#, GO, etc) CodeMirror library for semantic
+            suggestions and coding area. SCSS is used for styling in front-end
+            in React JS.
           </p>
           <a
-            href="https://github.com/fireclint/twitch-nextjs-tailwind"
+            href="https://github.com/jayant413/Online-Compiler"
             target="_blank"
             rel="noreferrer"
           >
             <button className="px-8 py-2 mt-4 mr-8">Code</button>
           </a>
           <a
-            href="https://movix-by-js.netlify.app"
+            href="https://online-compiler-by-js.vercel.app/"
             target="_blank"
             rel="noreferrer"
           >
@@ -55,7 +52,7 @@ const twitch = () => {
             <p className="text-center font-bold pb-2">Technologies</p>
             <div className="grid grid-cols-3 md:grid-cols-1">
               <p className="text-gray-300 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> React JS - Vite
+                <RiRadioButtonFill className="pr-1" /> MERN
               </p>
               <p className="text-gray-300 py-2 flex items-center">
                 <RiRadioButtonFill className="pr-1" /> SASS
@@ -64,7 +61,7 @@ const twitch = () => {
                 <RiRadioButtonFill className="pr-1" /> Redux ToolKit
               </p>
               <p className="text-gray-300 py-2 flex items-center">
-                <RiRadioButtonFill className="pr-1" /> TMDB api
+                <RiRadioButtonFill className="pr-1" /> Judge0 api
               </p>
             </div>
           </div>

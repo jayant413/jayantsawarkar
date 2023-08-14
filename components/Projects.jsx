@@ -1,10 +1,11 @@
 // import Image from "next/image";
 // import Link from "next/link";
 import React from "react";
-import ecommerceImg from "../public/assets/projects/ecommerce.png";
+import ecommerceImg from "../public/assets/projects/ecommerce_home.png";
 import ytImg from "../public/assets/projects/yt.png";
 import newsImg from "../public/assets/projects/news.png";
 import movixImg from "../public/assets/projects/movix1.png";
+import online_compiler from "../public/assets/projects/online_compiler.png";
 import ProjectItem from "./ProjectItem";
 
 const Projects = () => {
@@ -17,7 +18,7 @@ const Projects = () => {
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid md:grid-cols-2 gap-8">
           <ProjectItem
-            title="E-Commerce App"
+            title="MobiMart"
             backgroundImg={ecommerceImg}
             projectUrl="/ecommerce"
             tech="MERN"
@@ -35,10 +36,10 @@ const Projects = () => {
             tech="React JS"
           />
           <ProjectItem
-            title="Movix App"
-            backgroundImg={movixImg}
-            projectUrl="/movix"
-            tech="React JS - Vite"
+            title="Programiz"
+            backgroundImg={online_compiler}
+            projectUrl="/onlineCompiler"
+            tech="MERN"
           />
         </div>
       </div>

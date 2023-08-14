@@ -161,11 +161,15 @@ const Navbar = () => {
                   Projects
                 </li>
               </Link>
-              <Link href="/resume">
-                <li onClick={() => setNav(false)} className="py-4 text-sm">
+              <li className="py-4 text-sm">
+                <a
+                  href="Jayant_Sawarkar_Resume.pdf"
+                  download="Jayant_Sawarkar_Resume"
+                >
                   Resume
-                </li>
-              </Link>
+                </a>
+              </li>
+
               <Link href="/#contact">
                 <li onClick={() => setNav(false)} className="py-4 text-sm">
                   Contact
@@ -204,14 +208,18 @@ const Navbar = () => {
                     <AiOutlineMail />
                   </div>
                 </Link>
-                <Link href="/resume">
-                  <div
-                    onClick={() => setNav(!nav)}
-                    className="rounded-full shadow-lg shadow-gray-500 hover:shadow-gray-200 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+
+                <div
+                  onClick={() => setNav(!nav)}
+                  className="rounded-full shadow-lg shadow-gray-500 hover:shadow-gray-200 p-3 cursor-pointer hover:scale-105 ease-in duration-300"
+                >
+                  <a
+                    href="Jayant_Sawarkar_Resume.pdf"
+                    download="Jayant_Sawarkar_Resume"
                   >
                     <BsFillPersonLinesFill />
-                  </div>
-                </Link>
+                  </a>
+                </div>
               </div>
             </div>
           </div>
