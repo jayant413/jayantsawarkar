@@ -66,7 +66,7 @@ const Contact = () => {
                   <div className="rounded-full shadow-lg shadow-gray-500 hover:shadow-gray-200 p-6 cursor-pointer hover:scale-110 ease-in duration-300">
                     <a
                       href="Jayant_Sawarkar_Resume.pdf"
-                      download="Jayant_Sawarkar_Resume"
+                      download="Jayant_Sawarkar_8459299053"
                     >
                       <BsFillPersonLinesFill />
                     </a>

@@ -83,7 +83,7 @@ const Navbar = () => {
             <li className="ml-10 text-sm uppercase hover:border-b">
               <a
                 href="Jayant_Sawarkar_Resume.pdf"
-                download="Jayant_Sawarkar_Resume"
+                download="Jayant_Sawarkar_8459299053"
               >
                 Resume
               </a>
@@ -164,7 +164,7 @@ const Navbar = () => {
               <li className="py-4 text-sm">
                 <a
                   href="Jayant_Sawarkar_Resume.pdf"
-                  download="Jayant_Sawarkar_Resume"
+                  download="Jayant_Sawarkar_8459299053"
                 >
                   Resume
                 </a>
@@ -215,7 +215,7 @@ const Navbar = () => {
                 >
                   <a
                     href="Jayant_Sawarkar_Resume.pdf"
-                    download="Jayant_Sawarkar_Resume"
+                    download="Jayant_Sawarkar_8459299053"
                   >
                     <BsFillPersonLinesFill />
                   </a>
