@@ -1,5 +1,6 @@
 import { TextGenerateEffect } from '@/components/ui/text-generate-effect'
 import { Terminal, TerminalDetail, TypingTerminalLine } from '@/components/ui/terminal'
+import { RESUME_URL } from '@/lib/links'
 import { ArrowDownToLine, ArrowUpRight, Mail } from 'lucide-react'
 
 export function Hero() {
@@ -11,7 +12,7 @@ export function Hero() {
         <p className="hero-lede">I&apos;m Jayant — a full-stack developer who turns complex product requirements into fast, reliable, and thoughtful web experiences.</p>
         <div className="hero-actions">
           <a className="button button-dark" href="#work">See my work <ArrowUpRight /></a>
-          <a className="button button-resume" href="https://drive.google.com/file/d/15Qqeewr3MRnlvLmSfC4PXV88KEIDkKMk/view?usp=sharing" target="_blank" rel="noreferrer">Resume <ArrowDownToLine /></a>
+          <a className="button button-resume" href={RESUME_URL} target="_blank" rel="noreferrer">Resume <ArrowDownToLine /></a>
           <a className="text-button" href="mailto:jayantsawarkar4103@gmail.com"><Mail /> Get in touch</a>
         </div>
       </div>

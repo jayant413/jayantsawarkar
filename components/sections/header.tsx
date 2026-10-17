@@ -10,13 +10,14 @@ import {
   NavItems,
   Navbar,
 } from '@/components/ui/resizable-navbar'
+import { RESUME_URL } from '@/lib/links'
 import { SocialLinks } from './social-links'
 
 const navItems = [
   { name: 'About', link: '#about' },
   { name: 'Work', link: '#work' },
   { name: 'Skills', link: '#skills' },
-  { name: 'Resume', link: 'https://drive.google.com/file/d/1oXLRk9Lkb1IlqgxWRXh4M7KHkk6u9xNy/view', external: true },
+  { name: 'Resume', link: RESUME_URL, external: true },
   { name: 'Contact', link: '#contact' },
 ]
 
