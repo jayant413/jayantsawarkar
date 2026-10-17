@@ -14,12 +14,15 @@ export const MaskContainer = ({
   revealSize = 380,
   className,
   revealClassName,
+  raw = false,
 }: {
   children: React.ReactNode;
   reveal: React.ReactNode;
   revealSize?: number;
   className?: string;
   revealClassName?: string;
+  /** Render `reveal` as-is, filling the container, so it can mirror the section's own layout. */
+  raw?: boolean;
 }) => {
   const [isHovered, setIsHovered] = useState(false);
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
@@ -43,7 +46,8 @@ export const MaskContainer = ({
       <motion.div
         aria-hidden="true"
         className={cn(
-          "pointer-events-none absolute inset-0 z-30 hidden items-center justify-center bg-[#171717] px-6 text-center text-[#f4f1eb] [mask-image:url(/mask.svg)] [mask-repeat:no-repeat] md:flex",
+          "pointer-events-none absolute inset-0 z-30 hidden bg-[#171717] text-[#f4f1eb] [mask-image:url(/mask.svg)] [mask-repeat:no-repeat]",
+          raw ? "md:block" : "items-center justify-center px-6 text-center md:flex",
           revealClassName,
         )}
         initial={false}
@@ -56,9 +60,13 @@ export const MaskContainer = ({
           maskPosition: { duration: 0.15, ease: "linear" },
         }}
       >
-        <div className="mx-auto max-w-4xl text-[clamp(28px,4vw,56px)] font-bold leading-[1.05] tracking-[-0.04em]">
-          {reveal}
-        </div>
+        {raw ? (
+          reveal
+        ) : (
+          <div className="mx-auto max-w-4xl text-[clamp(28px,4vw,56px)] font-bold leading-[1.05] tracking-[-0.04em]">
+            {reveal}
+          </div>
+        )}
       </motion.div>
     </div>
   );

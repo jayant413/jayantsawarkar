@@ -1,5 +1,5 @@
 import { About } from '@/components/sections/about'
-import { Contact } from '@/components/sections/contact'
+import { Contact, ContactReveal } from '@/components/sections/contact'
 import { Footer } from '@/components/sections/footer'
 import { Header } from '@/components/sections/header'
 import { Hero } from '@/components/sections/hero'
@@ -19,7 +19,7 @@ export default function Page() {
       <About />
       <Work />
       <Skills />
-      <MaskContainer reveal={<>Let&apos;s build something <span className="text-[#e8674c]">future-ready</span> together.</>}>
+      <MaskContainer raw reveal={<ContactReveal />}>
         <Contact />
       </MaskContainer>
       <Footer />
