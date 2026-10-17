@@ -18,7 +18,7 @@ export function ContactReveal() {
         <div className="section-index invisible">04 <span>/</span> CONTACT</div>
         <h2 className="invisible">Why settle for a website<br />when you can build a <em>growth engine?</em></h2>
         <p className="invisible">I build future-ready digital platforms that turn business ideas into powerful online experiences, going beyond aesthetics to blend technology, user experience, and strategic growth.</p>
-        <span className="contact-email" style={{ color: '#fff', borderColor: '#fff' }}>{EMAIL}</span>
+        <span className="contact-email" data-twin="email" style={{ color: '#fff', borderColor: '#fff' }}>{EMAIL}</span>
       </div>
     </section>
   )
@@ -28,6 +28,6 @@ export function Contact() {
   return (
     <section id="contact" className="contact section-pad"><div className="contact-inner"><div className="section-index">04 <span>/</span> CONTACT</div><h2>Why settle for a website<br />when you can build a <em>growth engine?</em></h2>
     <p>I build future-ready digital platforms that turn business ideas into powerful online experiences, going beyond aesthetics to blend technology, user experience, and strategic growth.</p>
-    <a className="contact-email" href={`mailto:${EMAIL}`}>{EMAIL}</a></div></section>
+    <a className="contact-email" data-contact-btn="email" href={`mailto:${EMAIL}`}>{EMAIL}</a></div></section>
   )
 }
