@@ -62,7 +62,7 @@ export default function Page() {
           <a href="#about" onClick={closeMenu}>About</a>
           <a href="#work" onClick={closeMenu}>Work</a>
           <a href="#skills" onClick={closeMenu}>Skills</a>
-          <a href="https://drive.google.com/file/d/15Qqeewr3MRnlvLmSfC4PXV88KEIDkKMk/view?usp=sharing" target="_blank" rel="noreferrer" onClick={closeMenu}>Resume</a>
+          <a href="https://drive.google.com/file/d/1FW5F_upjdyTwDhgIooE0xjfNwNDfWq1b/view?usp=drive_link" target="_blank" rel="noreferrer" onClick={closeMenu}>Resume</a>
           <a href="#contact" onClick={closeMenu}>Contact</a>
         </nav>
         <div className="topbar-actions">
