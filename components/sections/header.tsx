@@ -1,29 +1,55 @@
 'use client'
 
 import { useState } from 'react'
-import { Menu, X } from 'lucide-react'
+import {
+  MobileNav,
+  MobileNavHeader,
+  MobileNavMenu,
+  MobileNavToggle,
+  NavBody,
+  NavItems,
+  Navbar,
+} from '@/components/ui/resizable-navbar'
 import { SocialLinks } from './social-links'
+
+const navItems = [
+  { name: 'About', link: '#about' },
+  { name: 'Work', link: '#work' },
+  { name: 'Skills', link: '#skills' },
+  { name: 'Resume', link: 'https://drive.google.com/file/d/1oXLRk9Lkb1IlqgxWRXh4M7KHkk6u9xNy/view', external: true },
+  { name: 'Contact', link: '#contact' },
+]
+
+const Wordmark = () => (
+  <a href="#top" className="wordmark relative z-20 px-2">JS<span>.</span></a>
+)
 
 export function Header() {
   const [menuOpen, setMenuOpen] = useState(false)
   const closeMenu = () => setMenuOpen(false)
 
   return (
-    <header className="topbar">
-      <a href="#top" className="wordmark" onClick={closeMenu}>JS<span>.</span></a>
-      <nav className={menuOpen ? 'nav-links nav-open' : 'nav-links'} aria-label="Primary navigation">
-        <a href="#about" onClick={closeMenu}>About</a>
-        <a href="#work" onClick={closeMenu}>Work</a>
-        <a href="#skills" onClick={closeMenu}>Skills</a>
-        <a href="https://drive.google.com/file/d/1oXLRk9Lkb1IlqgxWRXh4M7KHkk6u9xNy/view" target="_blank" rel="noreferrer" onClick={closeMenu}>Resume</a>
-        <a href="#contact" onClick={closeMenu}>Contact</a>
-      </nav>
-      <div className="topbar-actions">
-        <SocialLinks />
-        <button className="menu-button" aria-label={menuOpen ? 'Close menu' : 'Open menu'} onClick={() => setMenuOpen(!menuOpen)}>
-          {menuOpen ? <X /> : <Menu />}
-        </button>
-      </div>
-    </header>
+    <Navbar className="top-4">
+      <NavBody>
+        <Wordmark />
+        <NavItems items={navItems} />
+        <div className="relative z-20 flex items-center gap-5">
+          <SocialLinks />
+        </div>
+      </NavBody>
+
+      <MobileNav>
+        <MobileNavHeader>
+          <Wordmark />
+          <MobileNavToggle isOpen={menuOpen} onClick={() => setMenuOpen(!menuOpen)} />
+        </MobileNavHeader>
+        <MobileNavMenu isOpen={menuOpen} onClose={closeMenu}>
+          {navItems.map((item) => (
+            <a key={item.name} href={item.link} onClick={closeMenu} {...(item.external && { target: '_blank', rel: 'noreferrer' })} className="text-sm font-bold uppercase tracking-[.12em]">{item.name}</a>
+          ))}
+          <SocialLinks />
+        </MobileNavMenu>
+      </MobileNav>
+    </Navbar>
   )
 }
