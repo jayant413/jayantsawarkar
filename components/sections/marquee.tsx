@@ -1,5 +1,10 @@
+import { Fragment } from 'react'
+
+const phrases = ['FULL-STACK ENGINEER', 'MICROSERVICES', 'SCALABLE SYSTEMS', 'PRODUCT ENGINEERING', 'PRODUCTION-READY', 'RELIABLE SYSTEMS']
+const loop = [...phrases, ...phrases]
+
 export function Marquee() {
   return (
-    <section className="marquee" aria-label="Technologies"><div>REACT <span>✦</span> NEXT.JS <span>✦</span> GOLANG <span>✦</span> MICROSERVICES <span>✦</span> PRODUCT ENGINEERING <span>✦</span> REACT <span>✦</span> NEXT.JS <span>✦</span> GOLANG <span>✦</span></div></section>
+    <section className="marquee" aria-label="Highlights"><div>{loop.map((phrase, i) => <Fragment key={i}>{phrase} <span>✦</span> </Fragment>)}</div></section>
   )
 }

@@ -6,17 +6,22 @@ import { Hero } from '@/components/sections/hero'
 import { Marquee } from '@/components/sections/marquee'
 import { Skills } from '@/components/sections/skills'
 import { Work } from '@/components/sections/work'
+import { MaskContainer } from '@/components/ui/svg-mask-effect'
 
 export default function Page() {
   return (
     <main className="site-shell">
       <Header />
-      <Hero />
+      <MaskContainer reveal={<>From a great idea to a product which <span className="text-[#e8674c]">drives growth.</span></>}>
+        <Hero />
+      </MaskContainer>
       <Marquee />
       <About />
       <Work />
       <Skills />
-      <Contact />
+      <MaskContainer reveal={<>Let&apos;s build something <span className="text-[#e8674c]">future-ready</span> together.</>}>
+        <Contact />
+      </MaskContainer>
       <Footer />
     </main>
   )
