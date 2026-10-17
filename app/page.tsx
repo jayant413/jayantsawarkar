@@ -62,7 +62,7 @@ export default function Page() {
           <a href="#about" onClick={closeMenu}>About</a>
           <a href="#work" onClick={closeMenu}>Work</a>
           <a href="#skills" onClick={closeMenu}>Skills</a>
-          <a href="https://drive.google.com/file/d/1TDNEvks7yi7OvGdXJfrxMiBD-SA2s0Ad/view" target="_blank" rel="noreferrer" onClick={closeMenu}>Resume</a>
+          <a href="https://drive.google.com/file/d/1oXLRk9Lkb1IlqgxWRXh4M7KHkk6u9xNy/view" target="_blank" rel="noreferrer" onClick={closeMenu}>Resume</a>
           <a href="#contact" onClick={closeMenu}>Contact</a>
         </nav>
         <div className="topbar-actions">
@@ -109,7 +109,7 @@ export default function Page() {
 
       <section id="about" className="about section-grid section-pad">
         <div className="section-index">01 <span>/</span> ABOUT</div>
-        <div className="about-content"><p className="display-text">I care about the space between a great idea and a product people can actually use.</p><div className="about-columns"><p>With 2+ years across e-commerce, fintech-style payments, marketplaces, and internal platforms, I work comfortably from UI to database to deployment.</p><p>My sweet spot is building the connective tissue: clean APIs, resilient services, clear interfaces, and the systems that make products feel effortless.</p></div><div className="stat-row"><div><strong>02+</strong><span>years experience</span></div><div><strong>04</strong><span>production products</span></div><div><strong>08+</strong><span>core technologies</span></div></div></div>
+        <div className="about-content"><p className="display-text">I care about the space between a great idea and a product people can actually use.</p><div className="about-columns"><p>With 3+ years across e-commerce, fintech-style payments, marketplaces, and internal platforms, I work comfortably from UI to database to deployment.</p><p>My sweet spot is building the connective tissue: clean APIs, resilient services, clear interfaces, and the systems that make products feel effortless.</p></div><div className="stat-row"><div><strong>03+</strong><span>years experience</span></div><div><strong>04</strong><span>production products</span></div><div><strong>08+</strong><span>core technologies</span></div></div></div>
       </section>
 
       <section id="work" className="work section-pad">
@@ -117,7 +117,7 @@ export default function Page() {
         <div className="project-list">{projects.map((project) => <article className={`project-card ${project.accent}`} key={project.number}><div className="project-number">{project.number}</div><div className="project-main"><p className="project-type">{project.type}</p><h3><TextGenerateEffect words={project.title} duration={0.7} /></h3><p className="project-description">{project.description}</p><div className="tag-list">{project.tags.map(tag => <span key={tag}>{tag}</span>)}</div></div></article>)}</div>
       </section>
 
-      <section id="skills" className="skills section-grid section-pad"><div className="section-index">03 <span>/</span> SKILLS</div><div className="skills-content"><h2>Tools for turning<br /><em>ideas into impact.</em></h2><p className="skills-label">CORE SKILLS</p><div className="skill-cloud">{skills.map((skill) => <span className={['TypeScript', 'AWS', 'Node.js', 'Next.js', 'Docker'].includes(skill) ? 'skill-featured' : ''} key={skill}>{skill}</span>)}</div><div className="stack-note"><span>01</span><p>Frontend, backend, infrastructure — I like understanding how the whole thing fits together.</p></div></div></section>
+      <section id="skills" className="skills section-grid section-pad"><div className="section-index">03 <span>/</span> SKILLS</div><div className="skills-content"><h2>Tools for turning<br /><em>ideas into impact.</em></h2><p className="skills-label">CORE SKILLS</p><div className="skill-cloud">{skills.map((skill) => <span className={['TypeScript', 'AWS', 'Node.js', 'Next.js', 'Docker'].includes(skill) ? 'skill-featured' : ''} key={skill}>{skill}</span>)}</div><div className="stack-note"><span>-</span><p>Frontend, backend, infrastructure — I like understanding how the whole thing fits together.</p></div></div></section>
 
       <section id="contact" className="contact section-pad"><div className="contact-inner"><div className="section-index">04 <span>/</span> CONTACT</div><h2>Have a problem<br />worth <em>solving?</em></h2><p>Whether you&apos;re building from zero or making something better, I&apos;d love to hear what you&apos;re working on.</p><a className="contact-email" href="mailto:jayantsawarkar4103@gmail.com">jayantsawarkar4103@gmail.com</a></div></section>
 
