@@ -89,7 +89,7 @@ export default function Page() {
 <TypingTerminalLine command="npx user@details" delay={250}>
   <div className="terminal-details">
     <TerminalDetail label="Name" value="Jayant Sawarkar" />
-    <TerminalDetail label="Experience" value="02+ years" />
+    <TerminalDetail label="Experience" value="03+ years" />
     <TerminalDetail label="Role" value="Full-stack developer" />
     <TerminalDetail label="Based in" value="Pune, India" />
     <TerminalDetail label="Currently" value="Building @ Irys Group" />
